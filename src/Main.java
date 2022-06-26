@@ -4,8 +4,6 @@ public class Main {
         double weight = 50;
         double height = 1.6;
         int imt = (int) service.calculate(weight, height);
-
         System.out.println("Ваш индекс массы тела = " + imt);
-
     }
 }
